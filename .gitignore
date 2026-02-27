@@ -3,6 +3,17 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# PyTorch Models
+model-state-dicts/*
+model-state-dicts_2/*
+
+# CSVs
+*.csv
+
+# Training Data
+resized images train/*
+resized images test/*
+
 # C extensions
 *.so
 
